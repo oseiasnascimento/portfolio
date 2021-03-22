@@ -7,8 +7,7 @@ function Home()  {
         <Link href="/sobre">
             <a>Acessar page Sobre</a>
         </Link> 
-
-        Meu nome é Oseias Saboia, nasci em São Luís no mês de setembro em 1992. 
+        
         
         </div>)
  }
