@@ -8,6 +8,7 @@ function Home()  {
             <a>Acessar page Sobre</a>
         </Link> 
         
+        Vamos que vamos.
         
         </div>)
  }
