@@ -1,17 +1,10 @@
-import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 function Home()  {
     return (<div>
-
-        <h1>PORTFÓLIO EM CONSTRUÇÃO</h1> 
-        <Link href="/sobre">
-            <a>Acessar page Sobre</a>
-        </Link> 
-        
-        Em breve em perfil profissional.
-        
+        <Navbar/>
         </div>)
  }
 
  export default Home
-//  { }
+ 
