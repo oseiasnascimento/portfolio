@@ -1,8 +1,12 @@
-import Navbar from '../components/Navbar'
+import Link from 'next/link'
 
-function Sobre(){
-    return(<div>
-        <Navbar />
-    </div>)
+export default function Sobre() {
+  return (
+    <>
+      <h1>Página sobre</h1>
+      <Link href="/">
+        <a>Voltar</a>
+      </Link>
+    </>
+  )
 }
-export default Sobre
