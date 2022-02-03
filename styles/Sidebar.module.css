@@ -1,0 +1,32 @@
+.aside {
+  width: 302px;
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+.aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+.aside from {
+  margin-top: 30px;
+}
+
+.aside label {
+  color: #b31616;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+.aside img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
+}

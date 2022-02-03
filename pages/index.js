@@ -1,14 +1,14 @@
-import Link from 'next/link'
+import Sidebar from '../components/Sidebar'
+import Main from '../components/Main'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <>
-      <h1>Página inicial</h1>
-      <Link href="/sobre">
-        <a>Acessar page Sobre</a>
-      </Link>
-      <br />
-      Em breve em perfil profissional.
+      <div className={styles.app}>
+        <Sidebar />
+        <Main />
+      </div>
     </>
   )
 }
