@@ -1,9 +1,10 @@
 .aside {
-  width: 302px;
-  background: #fff;
+  position: relative;
+  width: 40%;
+  padding: 32px;
+  background: rgba(30, 30, 219, 0.589);
+  border-radius: 5px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
-  border-radius: 2px;
-  padding: 30px 10px;
 }
 
 .aside strong {
@@ -18,9 +19,23 @@
 }
 
 .aside label {
-  color: #b31616;
-  font-size: 14px;
+  color: #fff;
+  font-size: 16px;
   font-weight: bold;
+  display: block;
+}
+
+.aside strong {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+.aside span {
+  color: #fff;
+  font-size: 14px;
   display: block;
 }
 

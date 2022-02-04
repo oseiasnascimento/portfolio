@@ -1,14 +1,29 @@
 .main {
-  flex: 1;
-  background: #fff;
-  padding: 10px;
-  margin-left: 30px;
-  height: 300px;
+  margin-left: 20px;
+  position: relative;
+  width: 100%;
+  padding: 32px;
+  background: rgb(32, 32, 36);
+  border-radius: 5px;
 }
 
 .main ul {
   display: flex;
   list-style: none;
+}
+
+.main h2 {
+  color: #fff;
+  padding: 1rem;
+}
+
+.main p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
