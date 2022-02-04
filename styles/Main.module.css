@@ -1,7 +1,8 @@
 .main {
-  margin-left: 20px;
+  margin-left: 30px;
   position: relative;
   width: 100%;
+  height: 350px;
   padding: 32px;
   background: rgb(32, 32, 36);
   border-radius: 5px;
@@ -9,6 +10,7 @@
 
 .main ul {
   display: flex;
+
   list-style: none;
 }
 
@@ -19,11 +21,40 @@
 
 .main p {
   display: block;
+  padding: 10px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: #fff;
+}
+
+.main a {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(58, 58, 61);
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  transition: background 0.3s ease 0s;
+  white-space: nowrap;
+  margin: 5px;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main a:hover {
+  background: rgba(49, 49, 195, 0.52);
+  text-decoration: none;
+}
+
+.main span {
+  flex-shrink: 0;
+  margin-left: 12px;
 }
 
 @media (max-width: 1000px) {

@@ -1,6 +1,8 @@
 .aside {
   position: relative;
+  text-align: center;
   width: 40%;
+  height: 750px;
   padding: 32px;
   background: rgba(30, 30, 219, 0.589);
   border-radius: 5px;
