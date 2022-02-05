@@ -4,19 +4,26 @@ export default function Sidebar() {
   return (
     <>
       <aside className={styles.aside}>
-        <circle r="88" cx="90" cy="90" stroke="url(#gradient)"></circle>
 
-        <img
-          src="https://avatars.githubusercontent.com/u/28720307?v=4"
-          alt="Oseias Saboia"
-        />
-        <strong>Oseias Saboia Nascimento</strong>
-        <span>NextJS, ReactJS, Node.js</span>
+        <div className={styles.circle}>
+          <span class="c-ePqEHr c-ePqEHr-dJYsls-size-lg c-ePqEHr-ikVSlxC-css">
+            <img src="https://avatars0.githubusercontent.com/u/28720307?v=4" alt="Oseias Saboia Nascimento" />
+          </span>
+        </div>
+        <h2>Oseias Saboia Nascimento</h2>
+
         <form>
-          <div class="input-block">
-            <label htmlFor="github_username">DESENVOLVERDOR BACK-END.</label>
-          </div>
+
+          <label >
+            DESENVOLVERDOR BACK-END
+            </label>
+
+          <label>
+            Desenvolvedor na SEDUC Governo do Maranão
+          </label>
+
         </form>
+        <div className={styles.cUVeUs}>Servidor Público desde: junho, 2021</div>
       </aside>
     </>
   )
