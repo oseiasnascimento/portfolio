@@ -4,13 +4,14 @@
   height: 100%;
   padding: 32px;
   background: rgb(32, 32, 36);
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-left: 1rem;
+  margin-right: -5rem;
 }
 
 .container ul {
   display: flex;
-
   list-style: none;
 }
 
@@ -19,7 +20,7 @@
   margin: 0px 0px 1.333em;
 }
 
-.container p {
+.container p {  
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -38,7 +39,7 @@
 .gridbutton {
   display: grid;
   gap: 8px;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(4, max-content);
   margin-top: 40px;
 }
 
@@ -46,7 +47,7 @@
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
-  background: #7071E4;
+  background: #0095F6;
   padding: 12px;
   border-radius: 5px;
   font-size: 14px;
@@ -60,7 +61,7 @@
 }
 
 .redesociais:hover {
-  background: rgba(49, 49, 195, 0.52);
+  background: #0B52DE;
   text-decoration: none;
 }
 
@@ -68,6 +69,216 @@
   flex-shrink: 0;
   margin-left: 12px;
 }
+
+
+.tech span {
+  color: #fff;
+}
+
+.tech {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 24px;
+}
+
+.techposition + .techposition {
+  padding-left: 24px;
+}
+
+.techposition {
+  position: relative;
+}
+
+.techposition ul {
+  display: flex;
+  margin-top: 16px;
+}
+
+@media (max-width: 940px){
+  .techposition:last-child::after {
+    display: block;
+  }
+  .techposition:last-child {
+    padding-left: 25px;
+}
+}
+
+@media (max-width: 1162px){
+  .techposition:last-child::after {
+    display: none;
+  }
+}
+
+.techposition + .techposition::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1px;
+  height: 80%;
+  background-color: rgb(60, 60, 66);  
+}
+
+/*Tecnologias que tenho experiência*/
+.techMysql {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/mysql.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techCss3 {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/css3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techHtml5 {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/html5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techAspnet {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/asp-net.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techSqlserver {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/sql-server.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techJava {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/java.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+/*Tecnologias que Estou estudando*/
+.techDotnet {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/dot-net.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techNodejs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/node.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techJavascript {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/javascript.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techVisualbasic {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/visual-basic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+/*Tecnologias que tenho interesse*/
+.techNextjs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/nextjs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techReactjs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/reactjs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techFlutter {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/flutter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+
 
 @media (max-width: 1000px) {
   .container {
@@ -78,8 +289,7 @@
     padding: 10px;
   }
 
-  .container ul {
-  }
+ 
 }
 
 @media (max-width: 650px) {
