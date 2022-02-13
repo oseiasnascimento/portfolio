@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Oseias Saboia | Desenvolvedor</title>
+      <title>Oseias Saboia | Developer </title>
       <meta name="keywords" content="Oseias Saboia | Desenvolvedor"/>
-      <mate name="description" content="Desenvolvedor banck-end e front-end"/>
+      <mate name="description" content="Desenvolvedor back-end e Front-end"/>
     </Head>
       <div className={styles.app}>
         <Sidebar />
