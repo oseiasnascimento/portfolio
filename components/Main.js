@@ -9,7 +9,7 @@ export default function Main() {
         Sou programador há pouco mais de 3 anos e tenho experiência em desenvolvimeto web, 
         </p>
         <p>
-        atuando com desenvolvedor back-end.
+        atuando como desenvolvedor júnior em Back-end/Font-end.
         </p>
         <p>
           Em busca de conhecimento das melhores tecnologias de desenvolvimento
