@@ -7,7 +7,6 @@
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-left: 1rem;
-  margin-right: -5rem;
 }
 
 .container ul {
@@ -83,6 +82,17 @@
   gap: 24px;
 }
 
+.techposition ul {  
+  display: flex;
+  list-style: none;
+}
+
+.techposition li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-left: -15px;
+}
+
 .techposition + .techposition {
   padding-left: 24px;
 }
@@ -138,6 +148,10 @@
   transform: translateY(-10px);
 }
 
+.techCss3 + .techCss3{
+  margin-left: -18px;
+}
+
 .techHtml5 {
   background-color: rgb(41, 41, 46);
   width: 50px;
@@ -148,6 +162,10 @@
   background-size: cover;
   box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
   transition: transform 0.2s ease-in-out 0s;
+}
+
+.techHtml5 + .techHtml5{
+  margin-left: -18px;
 }
 
 .techHtml5:hover {
