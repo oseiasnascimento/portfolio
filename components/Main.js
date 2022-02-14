@@ -43,7 +43,7 @@ export default function Main() {
             <span>Instagram</span>
           </a>
           <a className={styles.redesociais}
-            href="https://www.instagram.com/oseiassaboia/"
+            href="https://pt-br.facebook.com/oseias.saboia.5"
             target="_blank"
             rel="noopener"
           >
