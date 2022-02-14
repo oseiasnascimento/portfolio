@@ -1,4 +1,4 @@
-.container  {
+.container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -14,12 +14,12 @@
   list-style: none;
 }
 
-.container h2 { 
+.container h2 {
   color: rgb(255, 255, 255);
   margin: 0px 0px 1.333em;
 }
 
-.container p { 
+.container p {
   width: 100%;
   font-size: 16px;
   line-height: 24px;
@@ -48,7 +48,7 @@
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
-  background: #0095F6;
+  background: #0095f6;
   padding: 12px;
   border-radius: 5px;
   font-size: 14px;
@@ -62,7 +62,7 @@
 }
 
 .redesociais:hover {
-  background: #0B52DE;
+  background: #0b52de;
   text-decoration: none;
 }
 
@@ -70,7 +70,6 @@
   flex-shrink: 0;
   margin-left: 12px;
 }
-
 
 .tech span {
   color: #fff;
@@ -82,7 +81,7 @@
   gap: 24px;
 }
 
-.techposition ul {  
+.techposition ul {
   display: flex;
   list-style: none;
 }
@@ -94,7 +93,7 @@
 }
 
 .techposition + .techposition {
-  padding-left: 24px;
+  padding-left: 2.5rem;
 }
 
 .techposition {
@@ -106,32 +105,32 @@
   margin-top: 16px;
 }
 
-@media (max-width: 940px){
+@media (max-width: 940px) {
   .techposition:last-child::after {
     display: block;
   }
   .techposition:last-child {
     padding-left: 25px;
-}
+  }
 }
 
-@media (max-width: 1162px){
+@media (max-width: 1162px) {
   .techposition:last-child::after {
     display: none;
   }
 }
 
 .techposition + .techposition::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0px;
   top: 0px;
   width: 1px;
   height: 80%;
-  background-color: rgb(60, 60, 66);  
+  background-color: rgb(60, 60, 66);
 }
 
-/*Tecnologias que tenho experiência*/
+/*Tecnologias*/
 .techCss3 {
   background-color: rgb(41, 41, 46);
   width: 50px;
@@ -148,7 +147,7 @@
   transform: translateY(-10px);
 }
 
-.techCss3 + .techCss3{
+.techCss3 + .techCss3 {
   margin-left: -18px;
 }
 
@@ -164,7 +163,7 @@
   transition: transform 0.2s ease-in-out 0s;
 }
 
-.techHtml5 + .techHtml5{
+.techHtml5 + .techHtml5 {
   margin-left: -18px;
 }
 
@@ -220,7 +219,6 @@
   transform: translateY(-10px);
 }
 
-/*Tecnologias que Estou estudando*/
 .techDotnet {
   background-color: rgb(41, 41, 46);
   width: 50px;
@@ -285,7 +283,6 @@
   transform: translateY(-10px);
 }
 
-/*Tecnologias que tenho interesse*/
 .techNextjs {
   background-color: rgb(41, 41, 46);
   width: 50px;
@@ -334,11 +331,41 @@
   transform: translateY(-10px);
 }
 
+.techCsharp {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/c-sharp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
 
+.techCsharp:hover {
+  transform: translateY(-10px);
+}
+
+.techTypescript {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/typescript.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.techTypescript:hover {
+  transform: translateY(-10px);
+}
 
 @media (max-width: 1000px) {
   .container {
-    position: relative; 
+    position: relative;
     flex-direction: column;
     margin: 30px 0 0 0;
     padding: 32px;
@@ -350,29 +377,26 @@
     grid-template-columns: repeat(1, max-content);
     width: 100%;
   }
-  
+
   .main main {
     display: flex;
     width: 100%;
   }
 
-  .container p { 
-    width: 100%; 
+  .container p {
+    width: 100%;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
   }
-  
+
   .gridbutton {
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(4, max-content);
     margin-top: 40px;
   }
-
- 
 }
 
 @media (max-width: 650px) {
- 
 }

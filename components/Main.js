@@ -59,6 +59,8 @@ export default function Main() {
             <div className={styles.techposition}>
               <span>Tenho experiência</span>
               <ul>              
+                <li data-tip="Visual Basic" name="Visual Basic" className={styles.techVisualbasic}></li>
+                <li data-tip=".NET" name=".NET" className={styles.techAspnet}></li>
                 <li data-tip="CSS3" name="CSS3" className={styles.techCss3} currentitem="true"></li>
                 <li data-tip="HTML5" name="HTML5" className={styles.techHtml5} ></li>
                 <li data-tip="ASP .NET" name="ASP .NET" className={styles.techAspnet} ></li>
@@ -68,18 +70,18 @@ export default function Main() {
             <div className={styles.techposition}>
               <span>Estou estudando</span>
               <ul>
-                <li data-tip=".NET" name=".NET" className={styles.techAspnet}></li>
                 <li data-tip="Node.JS" name="Node.JS" className={styles.techNodejs}></li>
                 <li data-tip="JavaScript" name="JavaScript" className={styles.techJavascript}></li>
-                <li data-tip="Visual Basic" name="Visual Basic" className={styles.techVisualbasic}></li>
+                <li data-tip="NextJS" name="NextJS" className={styles.techNextjs}></li>
+                <li data-tip="ReactJS" name="ReactJS" className={styles.techReactjs}></li>
               </ul>
             </div>
             <div className={styles.techposition}>
               <span>Tenho interesse</span>
               <ul>
-                <li data-tip="NextJS" name="NextJS" className={styles.techNextjs}></li>
-                <li data-tip="ReactJS" name="ReactJS" className={styles.techReactjs}></li>
                 <li data-tip="Flutter" name="Flutter" className={styles.techFlutter}></li>
+                <li data-tip="C#" name="C#" className={styles.techCsharp}></li>
+                <li data-tip="TypeScript" name="TypeScript" className={styles.techTypescript}></li>
               </ul>
             </div>
           </div>
