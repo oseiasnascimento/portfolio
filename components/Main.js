@@ -51,40 +51,28 @@ export default function Main() {
             <div className={styles.techposition}>
               <span>Tenho experiência</span>
               <ul>              
-                <li name="CSS3" className={styles.techCss3} currentitem="true"></li>
-                <li name="HTML5" className={styles.techHtml5} ></li>
+                <li name="Visual Basic" className={styles.techVisualbasic}></li>
                 <li name="ASP .NET" className={styles.techAspnet} ></li>
                 <li name="SQL Server" className={styles.techSqlserver} ></li>
+                <li name="CSS3" className={styles.techCss3} ></li>
+                <li name="HTML5" className={styles.techHtml5} ></li>
               </ul>
             </div>
             <div className={styles.techposition}>
               <span>Estou estudando</span>
               <ul>
-                <li name=".NET" className={styles.techAspnet}></li>
                 <li name="Node.JS" className={styles.techNodejs}></li>
                 <li name="JavaScript" className={styles.techJavascript}></li>
-                <li name="Visual Basic" className={styles.techVisualbasic}></li>
+                <li name="NextJS" className={styles.techNextjs}></li>
+                <li name="ReactJS" className={styles.techReactjs}></li>
             </ul>
             </div>
             <div className={styles.techposition}>
               <span>Tenho interesse</span>
               <ul>
-                <li name="NextJS" className={styles.techNextjs}></li>
-                <li name="ReactJS" className={styles.techReactjs}></li>
                 <li name="Flutter" className={styles.techFlutter}></li>
-
-                <li
-                  data-tip="Flutter"
-                  name="Flutter"
-                  className={styles.techFlutter}
-                ></li>
                 <li data-tip="C#" name="C#" className={styles.techCsharp}></li>
-                <li
-                  data-tip="TypeScript"
-                  name="TypeScript"
-                  className={styles.techTypescript}
-                ></li>
-
+                <li data-tip="TypeScript" name="TypeScript" className={styles.techTypescript}></li>
               </ul>
             </div>
           </div>
