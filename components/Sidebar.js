@@ -23,7 +23,7 @@ export default function Sidebar() {
           </label>
 
         </form>
-        <div className={styles.cUVeUs}>Servidor Público desde: junho, 2021</div>
+        <div className={styles.cUVeUs}>Desenvolvedor Full Stack: junho, 2021</div>
       </aside>
     </>
   )

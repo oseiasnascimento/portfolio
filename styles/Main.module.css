@@ -1,378 +1,380 @@
-.container  {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 32px;
-  background: rgb(32, 32, 36);
-  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  margin-left: 1rem;
+.container {
+    position: relative;
+    width: 100%;
+    padding: 32px;
+    background: rgb(32, 32, 36);
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container ul {
-  display: flex;
-  list-style: none;
-}
-
-.container h2 { 
-  color: rgb(255, 255, 255);
-  margin: 0px 0px 1.333em;
-}
-
-.container p { 
-  width: 100%;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.main {
-  display: grid;
-  gap: 8px;
-  grid-template-columns: repeat(1, max-content);
-  width: 100%;
-}
-
-.main main {
-  display: block;
-}
-
-.gridbutton {
-  display: grid;
-  gap: 8px;
-  grid-template-columns: repeat(4, max-content);
-  margin-top: 40px;
-}
-
-.redesociais {
-  display: inline-flex;
-  -webkit-box-align: center;
-  align-items: center;
-  background: #0095F6;
-  padding: 12px;
-  border-radius: 5px;
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-  transition: background 0.3s ease 0s;
-  white-space: nowrap;
-}
-
-.container a {
-  text-decoration: none;
-}
-
-.redesociais:hover {
-  background: #0B52DE;
-  text-decoration: none;
-}
-
-.container span {
-  flex-shrink: 0;
-  margin-left: 12px;
-}
-
-
-.tech span {
-  color: #fff;
-}
-
-.tech {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr));
-  gap: 24px;
-}
-
-.techposition ul {  
-  display: flex;
-  list-style: none;
-}
-
-.techposition li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-  margin-left: -15px;
-}
-
-.techposition + .techposition {
-  padding-left: 24px;
-}
-
-.techposition {
-  position: relative;
-}
-
-.techposition ul {
-  display: flex;
-  margin-top: 16px;
-}
-
-@media (max-width: 940px){
-  .techposition:last-child::after {
-    display: block;
-  }
-  .techposition:last-child {
-    padding-left: 25px;
-}
-}
-
-@media (max-width: 1162px){
-  .techposition:last-child::after {
-    display: none;
-  }
-}
-
-.techposition + .techposition::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1px;
-  height: 80%;
-  background-color: rgb(60, 60, 66);  
-}
-
-/*Tecnologias que tenho experiência*/
-.techCss3 {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/css3.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techCss3:hover {
-  transform: translateY(-10px);
-}
-
-.techCss3 + .techCss3{
-  margin-left: -18px;
-}
-
-.techHtml5 {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/html5.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techHtml5 + .techHtml5{
-  margin-left: -18px;
-}
-
-.techHtml5:hover {
-  transform: translateY(-10px);
-}
-
-.techAspnet {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/asp-net.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techAspnet:hover {
-  transform: translateY(-10px);
-}
-
-.techSqlserver {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/sql-server.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techSqlserver:hover {
-  transform: translateY(-10px);
-}
-
-.techJava {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/java.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techJava:hover {
-  transform: translateY(-10px);
-}
-
-/*Tecnologias que Estou estudando*/
-.techDotnet {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/dot-net.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techDotnet:hover {
-  transform: translateY(-10px);
-}
-
-.techNodejs {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/node.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techNodejs:hover {
-  transform: translateY(-10px);
-}
-
-.techJavascript {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/javascript.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techJavascript:hover {
-  transform: translateY(-10px);
-}
-
-.techVisualbasic {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/visual-basic.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techVisualbasic:hover {
-  transform: translateY(-10px);
-}
-
-/*Tecnologias que tenho interesse*/
-.techNextjs {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/nextjs.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techNextjs:hover {
-  transform: translateY(-10px);
-}
-
-.techReactjs {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/reactjs.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techReactjs:hover {
-  transform: translateY(-10px);
-}
-
-.techFlutter {
-  background-color: rgb(41, 41, 46);
-  width: 50px;
-  height: 50px;
-  border-radius: 6px;
-  background-image: url(https://xesque.rocketseat.dev/platform/tech/flutter.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
-  transition: transform 0.2s ease-in-out 0s;
-}
-
-.techFlutter:hover {
-  transform: translateY(-10px);
-}
-
-
-
-@media (max-width: 1000px) {
-  .container {
-    position: relative; 
-    flex-direction: column;
-    margin: 30px 0 0 0;
-    padding: 32px;
-  }
-
-  .main {
-    display: grid;
-    gap: 8px;
-    grid-template-columns: repeat(1, max-content);
-    width: 100%;
-  }
-  
-  .main main {
     display: flex;
-    width: 100%;
-  }
+    list-style: none;
+}
 
-  .container p { 
-    width: 100%; 
+.container h2 {
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 1.15em;
+}
+
+.container p {
+    width: 100%;
+    padding-bottom: 8px;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-  }
-  
-  .gridbutton {
+}
+
+.container span {
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.gridsociais {
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(4, max-content);
-    margin-top: 40px;
-  }
-
- 
+    padding-top: 32px;
 }
 
-@media (max-width: 650px) {
- 
+.redesociais {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #0095F6;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    transition: background 0.3s ease 0s;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.redesociais:hover {
+    background: #0B52DE;
+    text-decoration: none;
+}
+
+.tech {
+    position: relative;
+    width: 100%;
+    margin-left: 1rem;
+    background: rgb(32, 32, 36);
+    border-radius: 5px;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 24px;
+}
+
+.techposition span {
+    color: #fff;
+    margin-left: -12px;
+}
+
+.techposition li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-left: -15px;
+}
+
+.techposition+.techposition {
+    padding-left: 24px;
+}
+
+.techposition {
+    position: relative;
+}
+
+.techposition ul {
+    display: flex;
+    margin-top: 16px;
+    list-style: none;
+}
+
+.techposition+.techposition::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    height: 80%;
+    background-color: rgb(60, 60, 66);
+}
+
+
+@media (max-width: 940px) {
+    .techposition:last-child::after {
+        display: block;
+    }
+    .techposition:last-child {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 1163px) {
+    .techposition:last-child::after {
+        display: none;
+    }
+
+    .techposition+.techposition::after {
+        left: -20px;
+    }
+}
+
+@media (max-width: 768px){
+    .tech {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+    }
+}
+
+/*Tecnologias que tenho experiência*/
+
+.techCss3 {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/css3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techCss3:hover {
+    transform: translateY(-10px);
+}
+
+.techCss3+.techCss3 {
+    margin-left: -18px;
+}
+
+.techHtml5 {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/html5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techHtml5+.techHtml5 {
+    margin-left: -18px;
+}
+
+.techHtml5:hover {
+    transform: translateY(-10px);
+}
+
+.techAspnet {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/asp-net.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techAspnet:hover {
+    transform: translateY(-10px);
+}
+
+.techSqlserver {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/sql-server.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techSqlserver:hover {
+    transform: translateY(-10px);
+}
+
+.techJava {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/java.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techJava:hover {
+    transform: translateY(-10px);
+}
+
+
+/*Tecnologias que Estou estudando*/
+
+.techDotnet {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/dot-net.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techDotnet:hover {
+    transform: translateY(-10px);
+}
+
+.techNodejs {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/node.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techNodejs:hover {
+    transform: translateY(-10px);
+}
+
+.techJavascript {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/javascript.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techJavascript:hover {
+    transform: translateY(-10px);
+}
+
+.techVisualbasic {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/visual-basic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techVisualbasic:hover {
+    transform: translateY(-10px);
+}
+
+
+/*Tecnologias que tenho interesse*/
+
+.techNextjs {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/nextjs.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techNextjs:hover {
+    transform: translateY(-10px);
+}
+
+.techReactjs {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/reactjs.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techReactjs:hover {
+    transform: translateY(-10px);
+}
+
+.techFlutter {
+    background-color: rgb(41, 41, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-image: url(https://xesque.rocketseat.dev/platform/tech/flutter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.techFlutter:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 1000px) {
+    .container {
+        position: relative;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+
+
+@media (max-width: 940px) {
+    .techposition:last-child {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 698px) {
+    .techposition:last-child {
+        padding-left: 0px;
+    }
+
+    .tech {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gridsociais {
+        grid-template-columns: max-content;
+    }
+
+    .tech {
+        grid-template-columns: max-content;
+    }
 }
