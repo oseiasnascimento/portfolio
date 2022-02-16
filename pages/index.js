@@ -6,11 +6,11 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Oseias Saboia | Developer </title>
-      <meta name="keywords" content="Oseias Saboia | Desenvolvedor"/>
-      <mate name="description" content="Desenvolvedor back-end e Front-end"/>
-    </Head>
+      <Head>
+        <title>Oseias Saboia | Developer </title>
+        <meta name="keywords" content="Oseias Saboia | Desenvolvedor" />
+        <meta name="description" content="Desenvolvedor back-end e Front-end" />
+      </Head>
       <div className={styles.app}>
         <Sidebar />
         <Main />
