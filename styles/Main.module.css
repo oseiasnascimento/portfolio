@@ -1,5 +1,4 @@
 .container {
-<<<<<<< HEAD
     position: relative;
     width: 100%;
     padding: 32px;
@@ -52,15 +51,6 @@
     transition: background 0.3s ease 0s;
     white-space: nowrap;
     text-decoration: none;
-=======
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 32px;
-  background: rgb(32, 32, 36);
-  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  margin-left: 1rem;
 }
 
 .container ul {
@@ -485,7 +475,6 @@
   .main {
     width: 600px;
   }
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
 }
 
 .redesociais:hover {

@@ -15,14 +15,8 @@ export default function Main() {
           Em busca de conhecimento das melhores tecnologias de desenvolvimento
           web e mobile.
         </p>
-<<<<<<< HEAD
         <div className={styles.gridsociais}>
           <a className={styles.redesociais}
-=======
-        <div className={styles.gridbutton}>
-          <a
-            className={styles.redesociais}
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
             href="https://github.com/oseiassaboia"
             target="_blank"
             rel="noopener"
@@ -40,7 +34,6 @@ export default function Main() {
             <img src="/linkedIn.svg" alt="logo linkedIn" />
             <span>LinkedIn</span>
           </a>
-
           <a
             className={styles.redesociais}
             href="https://www.instagram.com/oseiassaboia/"
@@ -50,23 +43,10 @@ export default function Main() {
             <img src="/instagram.svg" alt="logo Instagram" />
             <span>Instagram</span>
           </a>
-<<<<<<< HEAD
-=======
-          <a
-            className={styles.redesociais}
-            href="https://pt-br.facebook.com/oseias.saboia.5"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/facebook.svg" alt="logo facebook" />
-            <span>Facebook</span>
-          </a>
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
         </div>
         </div>
         <div className={styles.container}>
         <h2>Tecnologias</h2>
-<<<<<<< HEAD
           <div className={styles.tech} >
             <div className={styles.techposition}>
               <span>Tenho experiência</span>
@@ -75,86 +55,24 @@ export default function Main() {
                 <li name="HTML5" className={styles.techHtml5} ></li>
                 <li name="ASP .NET" className={styles.techAspnet} ></li>
                 <li name="SQL Server" className={styles.techSqlserver} ></li>
-=======
-        <div className={styles.gridbutton}>
-          <div className={styles.tech}>
-            <div className={styles.techposition}>
-              <span>Tenho experiência</span>
-              <ul>
-                <li
-                  data-tip="Visual Basic"
-                  name="Visual Basic"
-                  className={styles.techVisualbasic}
-                ></li>
-                <li
-                  data-tip=".NET"
-                  name=".NET"
-                  className={styles.techAspnet}
-                ></li>
-                <li
-                  data-tip="CSS3"
-                  name="CSS3"
-                  className={styles.techCss3}
-                  currentitem="true"
-                ></li>
-                <li
-                  data-tip="HTML5"
-                  name="HTML5"
-                  className={styles.techHtml5}
-                ></li>
-                <li
-                  data-tip="ASP .NET"
-                  name="ASP .NET"
-                  className={styles.techAspnet}
-                ></li>
-                <li
-                  data-tip="SQL Server"
-                  name="SQL Server"
-                  className={styles.techSqlserver}
-                ></li>
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
               </ul>
             </div>
             <div className={styles.techposition}>
               <span>Estou estudando</span>
               <ul>
-<<<<<<< HEAD
                 <li name=".NET" className={styles.techAspnet}></li>
                 <li name="Node.JS" className={styles.techNodejs}></li>
                 <li name="JavaScript" className={styles.techJavascript}></li>
                 <li name="Visual Basic" className={styles.techVisualbasic}></li>
-=======
-                <li
-                  data-tip="Node.JS"
-                  name="Node.JS"
-                  className={styles.techNodejs}
-                ></li>
-                <li
-                  data-tip="JavaScript"
-                  name="JavaScript"
-                  className={styles.techJavascript}
-                ></li>
-                <li
-                  data-tip="NextJS"
-                  name="NextJS"
-                  className={styles.techNextjs}
-                ></li>
-                <li
-                  data-tip="ReactJS"
-                  name="ReactJS"
-                  className={styles.techReactjs}
-                ></li>
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
-              </ul>
+            </ul>
             </div>
             <div className={styles.techposition}>
               <span>Tenho interesse</span>
               <ul>
-<<<<<<< HEAD
                 <li name="NextJS" className={styles.techNextjs}></li>
                 <li name="ReactJS" className={styles.techReactjs}></li>
                 <li name="Flutter" className={styles.techFlutter}></li>
-=======
+
                 <li
                   data-tip="Flutter"
                   name="Flutter"
@@ -166,7 +84,7 @@ export default function Main() {
                   name="TypeScript"
                   className={styles.techTypescript}
                 ></li>
->>>>>>> d78c75b17b9be92b829589688f5e2bc7921cb3c5
+
               </ul>
             </div>
           </div>
