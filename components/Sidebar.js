@@ -13,7 +13,7 @@ export default function Sidebar() {
         <h2>Oseias Saboia Nascimento</h2>        
         <section>
           <label >DESENVOLVEDOR<br/> BACK-END / FRONT-END</label>
-          <label>Desenvolvedor na SEDUC  Governo do Maranão<br/></label>
+          <label>Desenvolvedor na SEDUC  Secretaria da Educação do Maranhão<br/></label>
         </section>
         <section className={styles.section}>
         <h4>HABILIDADES</h4>
