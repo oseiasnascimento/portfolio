@@ -5,7 +5,7 @@ export default function Sidebar() {
     <>
       <aside className={styles.aside}>
         <div className={styles.circle}>
-          <span class="c-ePqEHr c-ePqEHr-dJYsls-size-lg c-ePqEHr-ikVSlxC-css">
+          <span>
             <img
               src="https://avatars0.githubusercontent.com/u/28720307?v=4"
               alt="Oseias Saboia Nascimento"
@@ -19,9 +19,17 @@ export default function Sidebar() {
             <br /> BACK-END / FRONT-END
           </label>
           <label>
-            Desenvolvedor na SEDUC Secretaria da Educação do Maranhão
+            Analista De Sistemas Desenvolvedor Júnior | LAMPP-IT SOLUTIONS
             <br />
           </label>
+        </section>
+        <section>
+          <div className={styles.locale}>
+            <label>
+              <img src="/assets/map-pin.svg" />
+              São Luís, MA, Brasil
+            </label>
+          </div>
         </section>
         <div className={styles.footer}>
           Desenvolvedor Full Stack: junho, 2021
