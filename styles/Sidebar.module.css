@@ -22,8 +22,7 @@
 }
 
 .aside img {
-  width: 180px;
-  height: 180px;
+  width: 100%;
   border-radius: 50%;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
 }
@@ -380,14 +379,6 @@
   transform: translateY(-10px);
 }
 
-@media (max-width: 1000px) {
-  .aside {
-    width: 100%;
-    margin-right: 30px;
-    margin-top: 0;
-  }
-}
-
 @media (max-width: 1163px) {
   .techposition:last-child::after {
     display: none;
@@ -395,6 +386,14 @@
 
   .techposition + .techposition::after {
     left: -20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .aside {
+    width: 100%;
+    margin-left: -20px;
+
   }
 }
 
