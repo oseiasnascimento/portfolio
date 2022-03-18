@@ -8,12 +8,8 @@ export default function Main() {
           <h2>Sobre mim</h2>
           <p>
             Sou programador há pouco mais de 3 anos e tenho experiência em
-            desenvolvimeto web,
-          </p>
-          <p>atuando como desenvolvedor júnior em Back-end/Font-end.</p>
-          <p>
-            Em busca de conhecimento das melhores tecnologias de desenvolvimento
-            web e mobile.
+            desenvolvimeto web,<br/>atuando como desenvolvedor júnior em Back-end/Font-end.
+            Em busca de conhecimento<br/> das melhores tecnologias de desenvolvimento web e mobile.
           </p>
           <div className={styles.gridsociais}>
             <a

@@ -7,6 +7,7 @@
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 .aside h2 {
