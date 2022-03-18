@@ -417,6 +417,10 @@
 }
 
 @media (max-width: 1163px) {
+  .container {
+    margin-top: 0;
+  }
+
   .techposition:last-child::after {
     display: none;
   }

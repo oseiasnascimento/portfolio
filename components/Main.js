@@ -45,43 +45,7 @@ export default function Main() {
               <span>Instagram</span>
             </a>
           </div>
-        </section>
-        <section className={styles.container}>
-          <h2>Tecnologias</h2>
-          <div className={styles.tech}>
-            <div className={styles.techposition}>
-              <span>Tenho experiência</span>
-              <ul>
-                <li name="Visual Basic" className={styles.techVisualbasic}></li>
-                <li name="ASP .NET" className={styles.techAspnet}></li>
-                <li name="SQL Server" className={styles.techSqlserver}></li>
-                <li name="CSS3" className={styles.techCss3}></li>
-                <li name="HTML5" className={styles.techHtml5}></li>
-              </ul>
-            </div>
-            <div className={styles.techposition}>
-              <span>Estou estudando</span>
-              <ul>
-                <li name="Node.JS" className={styles.techNodejs}></li>
-                <li name="JavaScript" className={styles.techJavascript}></li>
-                <li name="NextJS" className={styles.techNextjs}></li>
-                <li name="ReactJS" className={styles.techReactjs}></li>
-              </ul>
-            </div>
-            <div className={styles.techposition}>
-              <span>Tenho interesse</span>
-              <ul>
-                <li name="Flutter" className={styles.techFlutter}></li>
-                <li data-tip="C#" name="C#" className={styles.techCsharp}></li>
-                <li
-                  data-tip="TypeScript"
-                  name="TypeScript"
-                  className={styles.techTypescript}
-                ></li>
-              </ul>
-            </div>
-          </div>
-        </section>
+        </section>        
         <section className={styles.container}>
           <h2>HABILIDADES</h2>
           <label>Visual basic</label>
@@ -118,6 +82,10 @@ export default function Main() {
               <label>70%</label>
             </div>
           </div>
+        </section>
+        <section className={styles.container}>
+          <h2>Meus Projetos</h2>
+          
         </section>
       </main>
     </div>

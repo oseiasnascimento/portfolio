@@ -1,4 +1,16 @@
 .layout {
   min-height: 100vh;
-  padding: 20px;
+  padding: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .layout {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .layout {
+    padding: 0.75rem;
+  }
 }

@@ -1,12 +1,12 @@
 .aside {
   position: relative;
   text-align: center;
-  width: 35%;
-  height: 100%;
-  padding: 32px;
+  width: 100%;
+  padding: 2rem;
   background: #0095f6;
-  border-radius: 5px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .aside h2 {
@@ -27,22 +27,39 @@
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
 }
 
-.locale img {
-  width: 1rem;
-  height: 0.75rem;
-  border-radius: 50%;
-  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
-}
-
-.aside label {
-  padding: 10px;
-}
-
 .aside label {
   color: #fff;
   font-size: 14px;
   font-weight: bold;
   display: block;
+  padding: 1rem;
+}
+
+.locale div {
+  display: inline-block;
+  justify-items: center;
+  justify-content: center;
+}
+
+.locale span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0;
+  padding: 0.5rem;
+}
+
+.locale img {
+  width: 1rem;
+  height: 0.85rem;
+  margin-right: 1rem;
+  color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0, 0.2);
+}
+
+.work {
+  background: rgb(32, 32, 36);
 }
 
 .circle {
@@ -85,9 +102,281 @@
   background: rgba(255, 255, 255, 0.699);
 }
 
-.section {
-  padding: 1.5rem;
-  margin-bottom: 2rem;
+.tech {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(220px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.techposition {
+  position: relative;
+}
+
+.techposition ul {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
+
+.techposition li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-left: -10px;
+}
+
+.techposition span {
+  flex-shrink: 1;
+  color: #fff;
+}
+
+/* .techposition + .techposition::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1px;
+  height: 80%;
+  background-color: rgb(60, 60, 66);
+} */
+
+/*Tecnologias*/
+.techCss3 {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/css3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techCss3:hover {
+  transform: translateY(-10px);
+}
+
+.techHtml5 {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/html5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techHtml5:hover {
+  transform: translateY(-10px);
+}
+
+.techAspnet {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/asp-net.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techAspnet:hover {
+  transform: translateY(-10px);
+}
+
+.techSqlserver {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/sql-server.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techSqlserver:hover {
+  transform: translateY(-10px);
+}
+
+.techJava {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/java.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techJava:hover {
+  transform: translateY(-10px);
+}
+
+.techDotnet {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/dot-net.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techDotnet:hover {
+  transform: translateY(-10px);
+}
+
+.techNodejs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/node.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techNodejs:hover {
+  transform: translateY(-10px);
+}
+
+.techJavascript {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/javascript.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techJavascript:hover {
+  transform: translateY(-10px);
+}
+
+.techVisualbasic {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/visual-basic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techVisualbasic:hover {
+  transform: translateY(-10px);
+}
+
+.techNextjs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/nextjs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techNextjs:hover {
+  transform: translateY(-10px);
+}
+
+.techReactjs {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/reactjs.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techReactjs:hover {
+  transform: translateY(-10px);
+}
+
+.techFlutter {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/flutter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techFlutter:hover {
+  transform: translateY(-10px);
+}
+
+.techCsharp {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/c-sharp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techCsharp:hover {
+  transform: translateY(-10px);
+}
+
+.techTypescript {
+  background-color: rgb(41, 41, 46);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-image: url(https://xesque.rocketseat.dev/platform/tech/typescript.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 50%) 0px 4px 16px;
+  transition: transform 0.2s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.techTypescript:hover {
+  transform: translateY(-10px);
 }
 
 @media (max-width: 1000px) {
@@ -95,5 +384,27 @@
     width: 100%;
     margin-right: 30px;
     margin-top: 0;
+  }
+}
+
+@media (max-width: 1163px) {
+  .techposition:last-child::after {
+    display: none;
+  }
+
+  .techposition + .techposition::after {
+    left: -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .techposition + .techposition {
+    padding-left: 0;
+  }
+  .techposition li {
+    margin-left: -10px;
+  }
+  .techposition + .techposition::after {
+    content: none;
   }
 }
