@@ -14,30 +14,22 @@
 <br>
 
 <p align="center">
-  <img alt="Ignite Lab | REACTJS" src=".github/preview.png" width="100%">
+  <img alt="Oseias | Developer" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- ReactJS
-- GraphQL
-- JavaScript
-- TypeScript
-- Tailwindcss
-- @apollo/client
-- Phosphor-React
 - HTML
 - CSS
+- ReactJS
+- JavaScript
+- NextJS
 
 ## 💻 Projeto
 
-Event Plataform é uma plataforma de conteúdos em vídeo.
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/iRgpd71FFiJvfmJHn0Uy1Y/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Meu portfólio. Aplicação criada para mostrar os projetos que irei desenvolver durante minha carreira.
 
 ## 📝 Licença
 
